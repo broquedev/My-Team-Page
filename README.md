@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://broquedev.github.io/My-Team-Page/}">
+    <a href="https://broquedev.github.io/My-Team-Page/" target="_blanck">
       Demo
     </a>
     <span> | </span>
