@@ -1,0 +1,71 @@
+/* =Container
+---------------------------------- */
+.container {
+    max-width: 375px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* =Heading
+---------------------------------- */
+.heading {
+    margin-bottom: 83px;
+    margin-top: 83px;
+}
+.heading h1 { margin-bottom: 38px; }
+.heading div h2 { margin-bottom: 10px; }
+.heading div p { width: 333px; }
+
+/* =team
+---------------------------------- */
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 83px 20px;
+    margin-bottom: 83px;
+}
+.team figure {
+    max-width: 175.68px;
+    max-height: 257.38px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.team figure .name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    Font-size: 1.125rem;
+    line-height: 27px;
+}
+.team figure:nth-child(even) {
+    transform: translateY(20%);
+}
+.team figure img{
+    width: 80%;
+    margin: 0 6px 10px 0;
+    transition: .5s;
+}
+.team figure img:hover {
+    transform: scale(110%);
+}
+.team figure .position {
+    display: block;
+    text-transform: uppercase;
+    font-size: .625rem;
+    letter-spacing: .02rem;
+    font-weight: 300;
+    writing-mode: vertical-rl;
+}
+
+.team figure .name {
+    text-transform: capitalize;
+    font-size: .875rem;
+}
+
+/* =Footer
+---------------------------------- */
+footer p {
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+}
+footer p strong { text-decoration: underline; }

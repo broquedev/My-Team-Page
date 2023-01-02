@@ -1,0 +1,55 @@
+@media screen and (min-width: 850px) {
+    /* =Container
+    ---------------------------------- */
+    .container {
+        max-width: 1114px;
+    }
+    h2,
+    p,
+    .team figure .name {
+        font-family: 'Poppins', sans-serif;
+        Font-size: 18px;
+        line-height: 27px;
+    }
+
+    /* =Heading
+    ---------------------------------- */
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 110px;
+    }
+    .heading h1 { font-size: 4vmin; }
+    .heading div h2 { margin-bottom: 10px; }
+    .heading div p { width: 400px; }
+
+    /* =team
+    ---------------------------------- */
+    .team {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 120px 50px;
+        padding-bottom: 115px;
+    }
+    .team figure {
+        max-width: 350px;
+        max-height: 471px;
+    }
+    .team figure:nth-child(even) { transform: none; }
+    .team figure:nth-child(2),
+    .team figure:nth-child(5) { transform: translateY(20%); }
+    .team figure img { width: 85%; }
+    .team figure .position {
+        margin-left: 10px;
+        font-size: .75rem;
+
+    }
+    .team figure .name { margin-top: 15px; }
+
+    /* =Footer
+---------------------------------- */
+    footer p {
+        text-align: center;
+    }
+}

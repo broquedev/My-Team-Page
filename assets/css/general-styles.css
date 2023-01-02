@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:ital,wght@0,600;1,300;1,400&display=swap');
+
+/* =reset
+---------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =General
+---------------------------------- */
+h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    Font-size: 2.25rem;
+    line-height: 47.7px;
+    letter-spacing: -4.5%;
+}
+h2,
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    Font-size: 1.125rem;
+    line-height: 27px;
+}
+h2 { text-transform: uppercase; }
+p {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 21px;
+}
