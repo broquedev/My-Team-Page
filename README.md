@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{}">
+    <a href="https://{https://broquedev.github.io/My-Team-Page/}">
       Demo
     </a>
     <span> | </span>
@@ -54,7 +54,7 @@
 
 <br>
 
-- You can see a demo by clicking on the link: <a href="" target="_blanck">My Team Page</a>
+- You can see a demo by clicking on the link: <a href="https://broquedev.github.io/My-Team-Page/" target="_blanck">My Team Page</a>
 - acquired experiences:
   - Structure and semantics in HTML;
   - Control of layout elements with CSS Grid and Flexbox;
