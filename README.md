@@ -10,11 +10,7 @@
   <h3>
     <a href="https://broquedev.github.io/My-Team-Page/" target="_blanck">
       Demo
-    </a>
-    <span> | </span>
-    <a href="https://{}">
-      Solution
-    </a>
+    </a>    
     <span> | </span>
     <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
@@ -33,25 +29,13 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
-<center>
-<figure>
-
 ![screenshot](assets/img/desktop_version.png);
-<figcaption>Desktop Version</figcaption>
-</figure>
-</center>
 
 <br>
 
-<center>
-<figure>
-
 ![screenshot](assets/img/mobile_version.png);
-<figcaption>Mobile Version</figcaption>
-</figure>
-</center>
 
+<br>
 <br>
 
 - You can see a demo by clicking on the link: <a href="https://broquedev.github.io/My-Team-Page/" target="_blanck">My Team Page</a>
